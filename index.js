@@ -4,19 +4,74 @@ const fi = (function() {
       return 'Start by reading https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0'
     },
 
-    each: function() {
+    each: function(collection, callback) {
+      
+    },
+
+    map: function(collection, callback) {
+      return callback(collection);
+    },
+
+    reduce: function(collection, callback, acc) {
 
     },
 
-    map: function() {
+    find: function(collection, predicate) {
+
 
     },
 
-    reduce: function() {
+    filter: function(collection, predicate) {
+
 
     },
 
-    functions: function() {
+    size: function(collection) {
+
+
+    },
+
+    first: function(array, [n]) {
+
+
+    },
+
+    last: function(array, [n]) {
+
+
+    },
+
+    compact: function(array) {
+
+
+    },
+
+    sortBy: function(array, callback) {
+
+
+    },
+
+    flatten: function(array, [shallow]) {
+
+
+    },
+    
+    uniq: function(array, [isSorted], [callback]) {
+
+
+    },
+
+    keys: function(object) {
+
+
+    },
+
+    values: function(object) {
+
+
+    },
+
+    functions: function(object) {
 
     },
 
